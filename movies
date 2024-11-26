@@ -1,0 +1,15 @@
+Filter Recent Movies
+Now, add a second query after the first, that retrieves only the movies that were released in the year 2010 or later, not before. 
+Sort the results so that the earlier movies are listed first. You should have 2 SELECT statements after this step.
+
+CREATE TABLE movies (id INTEGER, name TEXT, release_year INTEGER);
+INSERT INTO movies VALUES (1, Twilight, 2008);
+INSERT INTO movies VALUES (2, New Moon, 2009);
+INSERT INTO movies VALUES (3, Eclipse, 2010); 
+INSERT INTO movies VALUES (4, Breaking Dawn One, 2011);
+INSERT INTO movies VALUES (5, Breaking Dawn Two, 2012);
+
+SELECT * FROM movies;
+SELECT * FROM movies WHERE release_year > 2010 
+ORDERY BY release_year; 
+
