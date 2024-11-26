@@ -1,2 +1,3 @@
 # sql_practice
-For practice 
+some of my beginner sql practice 
+some questions have been taken from khan academy challenges 
